@@ -1,0 +1,249 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+}
+.bandeira{    
+    height: 250px;
+    background-color: white;  
+    width: 450px;
+}
+
+h1{
+    margin: 50px;
+}
+div{
+    margin: 0px;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+#dinamarca #box{
+    background-color: red;
+    height: 100px;
+    width: 160px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    float: left;
+}
+
+#dinamarca #boxlong{
+    background-color: red;
+    height: 100px;
+    width: 240px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#ucrania #up{
+    background-color: yellow;
+    width: 450px;
+    height: 125px;
+}
+#ucrania #down{
+    background-color: blue;
+    width: 450px;
+    height: 125px;
+}
+
+#russia #box{
+    width: 450px;
+    height: 83px;
+}
+.blue{
+   background-color: blue; 
+}
+#russia .red{
+    background-color: red;
+}
+
+#barbados .blue{
+    height: 250px;
+    width: 150px;
+}
+#barbados .yellow{
+    display: grid;
+    place-items: center;
+    height: 250px;
+    width: 150px;
+    background-color: yellow;
+}
+
+#libano #red{
+    background-color: red;
+    height: 60px;
+}
+#libano #white{
+    display: grid;
+    place-items: center;
+    height: 130px;
+}
+#libano img{
+    height: 130px;
+}
+
+/* Inicio bandeira do Brasil(um pouco difícil de mais) */
+
+.brasil-flag {
+    position: relative;
+    background-color: #16b83e;
+    width: 250px;
+    height: 150px;
+}
+
+.brasil-flag .losangue:before,
+.brasil-flag .losangue:after {
+  position: absolute;
+}
+
+.brasil-flag .losangue {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.brasil-flag .losangue:before,
+.brasil-flag .losangue:after {
+  content: '';
+  width: 0;
+  height: 0;
+  left: 20px;
+  right: 20px;
+}
+
+.brasil-flag .losangue:before {
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
+  border-bottom: 65px solid #ffe11f;
+  top: 10px;
+}
+
+.brasil-flag .losangue:after {
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
+  border-top: 65px solid #ffe11f;
+  bottom: 10px;
+}
+.brasil-flag .circle {
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+    background-color: #1651b8;
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+  
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+  }
+  .brasil-flag .circle,
+.brasil-flag .circle:before,
+.brasil-flag .circle:after {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.brasil-flag .circle:before,
+.brasil-flag .circle:after {
+  width: 90px;
+  height: 40px;
+  -ms-transform: rotate(14deg);
+  -webkit-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
+.brasil-flag .circle:before {
+  z-index: 3;
+  content: '';
+  margin-top: -20px;
+  margin-left: -45px;
+  background: #fff;
+}
+
+.brasil-flag .circle:after {
+  z-index: 4;
+  content: '';
+  margin-top: -10px;
+  margin-left: -48px;
+  background-color: #1651b8;
+}
+
+/*Fim da bandeira do Brasil*/
+#eua img{
+    height: 134.6153846px;
+}
+#eua .horizontal #red{
+    height: 19.23076923px;
+    background-color: red;
+    width: 257px;
+}
+#eua .horizontal #white{
+    height: 19.23076923px;
+    width: 257px;
+}
+#eua #red{
+    height: 19.23076923px;
+    background-color: red;
+    
+}
+#eua #white{
+    height: 19.23076923px;
+}
+
+#grecia{
+    position: absolute;
+    z-index: 1;
+}
+#grecia #blue{
+    height: 27.77777778px;
+    width: 450px;
+    background-color: #1651b8;
+}
+#grecia #white{
+    height: 27.77777778px;
+    width: 450px;
+}
+
+#grecia .horizontal{
+    height: 83.298px;
+    margin-bottom: 27.766px;
+}
+#quadrado{
+    position: absolute;
+    z-index: 2;
+    height: 194.362px;
+    width: 194.362px;
+    background-color: white;
+}
+
+#quadrado #box{
+    height: 83.298px;
+    width: 83.298px;
+    background-color: #1651b8;
+}
+.left{
+    height: 83.298px;
+    width: 83.298px;
+    margin-right: 27.766px;
+    background-color: #1651b8;
+}
